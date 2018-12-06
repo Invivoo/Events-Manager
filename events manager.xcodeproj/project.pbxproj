@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C7717FC421AEC42700EC08D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7717FC321AEC42700EC08D9 /* AppDelegate.swift */; };
-		C7717FC621AEC42700EC08D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7717FC521AEC42700EC08D9 /* ViewController.swift */; };
+		C7717FC621AEC42700EC08D9 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7717FC521AEC42700EC08D9 /* EventListViewController.swift */; };
 		C7717FC921AEC42700EC08D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7717FC721AEC42700EC08D9 /* Main.storyboard */; };
 		C7717FCB21AEC42800EC08D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7717FCA21AEC42800EC08D9 /* Assets.xcassets */; };
 		C7717FCE21AEC42800EC08D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7717FCC21AEC42800EC08D9 /* LaunchScreen.storyboard */; };
@@ -35,7 +35,7 @@
 		B1A70C02B43E4BE0E4D08940 /* Pods-events manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-events manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-events manager/Pods-events manager.release.xcconfig"; sourceTree = "<group>"; };
 		C7717FC021AEC42700EC08D9 /* events manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "events manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7717FC321AEC42700EC08D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7717FC521AEC42700EC08D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7717FC521AEC42700EC08D9 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 		C7717FC821AEC42700EC08D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7717FCA21AEC42800EC08D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7717FCD21AEC42800EC08D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -109,11 +109,10 @@
 		C7717FC221AEC42700EC08D9 /* events manager */ = {
 			isa = PBXGroup;
 			children = (
+				C79AF5BA21B969AA00A1E48F /* Supporting Files */,
+				C79AF5B921B9699F00A1E48F /* Views */,
+				C79AF5B821B9698C00A1E48F /* Controllers */,
 				C7717FC321AEC42700EC08D9 /* AppDelegate.swift */,
-				C7717FC521AEC42700EC08D9 /* ViewController.swift */,
-				C7717FC721AEC42700EC08D9 /* Main.storyboard */,
-				C7717FCA21AEC42800EC08D9 /* Assets.xcassets */,
-				C7717FCC21AEC42800EC08D9 /* LaunchScreen.storyboard */,
 				C7717FCF21AEC42800EC08D9 /* Info.plist */,
 			);
 			path = "events manager";
@@ -126,6 +125,31 @@
 				C7717FDA21AEC42800EC08D9 /* Info.plist */,
 			);
 			path = "events managerTests";
+			sourceTree = "<group>";
+		};
+		C79AF5B821B9698C00A1E48F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7717FC521AEC42700EC08D9 /* EventListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C79AF5B921B9699F00A1E48F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7717FC721AEC42700EC08D9 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C79AF5BA21B969AA00A1E48F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7717FCA21AEC42800EC08D9 /* Assets.xcassets */,
+				C7717FCC21AEC42800EC08D9 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7717FC621AEC42700EC08D9 /* ViewController.swift in Sources */,
+				C7717FC621AEC42700EC08D9 /* EventListViewController.swift in Sources */,
 				C7717FC421AEC42700EC08D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +479,7 @@
 			baseConfigurationReference = 1D8DC0787858B68813A926AB /* Pods-events manager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ENRY7VEVS6;
 				INFOPLIST_FILE = "events manager/Info.plist";
@@ -464,6 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.invivoo.xcomponent.eventsmanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -474,6 +500,7 @@
 			baseConfigurationReference = B1A70C02B43E4BE0E4D08940 /* Pods-events manager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ENRY7VEVS6;
 				INFOPLIST_FILE = "events manager/Info.plist";
@@ -483,6 +510,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.invivoo.xcomponent.eventsmanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7117A4721BAD3EA005248B1 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7117A4621BAD3EA005248B1 /* EventDetailViewController.swift */; };
 		C7717FC421AEC42700EC08D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7717FC321AEC42700EC08D9 /* AppDelegate.swift */; };
 		C7717FC621AEC42700EC08D9 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7717FC521AEC42700EC08D9 /* EventListViewController.swift */; };
 		C7717FC921AEC42700EC08D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7717FC721AEC42700EC08D9 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		1D8DC0787858B68813A926AB /* Pods-events manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-events manager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-events manager/Pods-events manager.debug.xcconfig"; sourceTree = "<group>"; };
 		4368040163F5D7C0535A83B0 /* Pods-events managerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-events managerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-events managerTests/Pods-events managerTests.release.xcconfig"; sourceTree = "<group>"; };
 		B1A70C02B43E4BE0E4D08940 /* Pods-events manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-events manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-events manager/Pods-events manager.release.xcconfig"; sourceTree = "<group>"; };
+		C7117A4621BAD3EA005248B1 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		C7717FC021AEC42700EC08D9 /* events manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "events manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7717FC321AEC42700EC08D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7717FC521AEC42700EC08D9 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				C7717FC521AEC42700EC08D9 /* EventListViewController.swift */,
+				C7117A4621BAD3EA005248B1 /* EventDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7117A4721BAD3EA005248B1 /* EventDetailViewController.swift in Sources */,
 				C7717FC621AEC42700EC08D9 /* EventListViewController.swift in Sources */,
 				C7717FC421AEC42700EC08D9 /* AppDelegate.swift in Sources */,
 			);

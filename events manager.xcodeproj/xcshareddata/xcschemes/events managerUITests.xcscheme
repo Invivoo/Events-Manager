@@ -14,20 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7717FBF21AEC42700EC08D9"
-               BuildableName = "events manager.app"
-               BlueprintName = "events manager"
-               ReferencedContainer = "container:events manager.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "76BD4592010354D6C23D6ECCA20D83A8"
                BuildableName = "ChameleonFramework.framework"
                BlueprintName = "ChameleonFramework"
@@ -60,16 +46,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7717FD321AEC42800EC08D9"
-               BuildableName = "events managerTests.xctest"
-               BlueprintName = "events managerTests"
-               ReferencedContainer = "container:events manager.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "C774489A21CEB2BE009F9532"
                BuildableName = "events managerUITests.xctest"
                BlueprintName = "events managerUITests"
@@ -80,10 +56,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7717FBF21AEC42700EC08D9"
-            BuildableName = "events manager.app"
-            BlueprintName = "events manager"
-            ReferencedContainer = "container:events manager.xcodeproj">
+            BlueprintIdentifier = "76BD4592010354D6C23D6ECCA20D83A8"
+            BuildableName = "ChameleonFramework.framework"
+            BlueprintName = "ChameleonFramework"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -99,16 +75,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7717FBF21AEC42700EC08D9"
-            BuildableName = "events manager.app"
-            BlueprintName = "events manager"
-            ReferencedContainer = "container:events manager.xcodeproj">
+            BlueprintIdentifier = "76BD4592010354D6C23D6ECCA20D83A8"
+            BuildableName = "ChameleonFramework.framework"
+            BlueprintName = "ChameleonFramework"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -118,16 +93,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7717FBF21AEC42700EC08D9"
-            BuildableName = "events manager.app"
-            BlueprintName = "events manager"
-            ReferencedContainer = "container:events manager.xcodeproj">
+            BlueprintIdentifier = "76BD4592010354D6C23D6ECCA20D83A8"
+            BuildableName = "ChameleonFramework.framework"
+            BlueprintName = "ChameleonFramework"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

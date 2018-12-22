@@ -31,6 +31,9 @@ class events_managerUITests: XCTestCase {
         if UIDevice.current.userInterfaceIdiom == .phone{
             app.navigationBars["Event"].buttons["Events Manager"].tap()
         }
+        else {
+            XCTFail("ipad not supported")
+        }
     }
 
 }

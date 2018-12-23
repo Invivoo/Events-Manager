@@ -13,8 +13,8 @@
 		C7717FC921AEC42700EC08D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7717FC721AEC42700EC08D9 /* Main.storyboard */; };
 		C7717FCB21AEC42800EC08D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7717FCA21AEC42800EC08D9 /* Assets.xcassets */; };
 		C7717FCE21AEC42800EC08D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7717FCC21AEC42800EC08D9 /* LaunchScreen.storyboard */; };
-		C7717FD921AEC42800EC08D9 /* events_managerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7717FD821AEC42800EC08D9 /* events_managerTests.swift */; };
 		C774489E21CEB2BE009F9532 /* events_managerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C774489D21CEB2BE009F9532 /* events_managerUITests.swift */; };
+		C7E4491521CFFEC800522BEE /* EventListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4491421CFFEC800522BEE /* EventListViewControllerTests.swift */; };
 		CD72B0E4CB7EEDA8FB6A6D18 /* Pods_events_managerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C78291B26CD7D0DAF7A51B5 /* Pods_events_managerTests.framework */; };
 		E1B21DB183368D708A7E9C80 /* Pods_events_manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFE3323C97EF2D8EEAF045F /* Pods_events_manager.framework */; };
 /* End PBXBuildFile section */
@@ -51,11 +51,11 @@
 		C7717FCD21AEC42800EC08D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7717FCF21AEC42800EC08D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7717FD421AEC42800EC08D9 /* events managerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "events managerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7717FD821AEC42800EC08D9 /* events_managerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = events_managerTests.swift; sourceTree = "<group>"; };
 		C7717FDA21AEC42800EC08D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C774489B21CEB2BE009F9532 /* events managerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "events managerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C774489D21CEB2BE009F9532 /* events_managerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = events_managerUITests.swift; sourceTree = "<group>"; };
 		C774489F21CEB2BE009F9532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E4491421CFFEC800522BEE /* EventListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewControllerTests.swift; sourceTree = "<group>"; };
 		E8928F2518D418226C8D9B9A /* Pods-events managerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-events managerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-events managerTests/Pods-events managerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,8 +143,8 @@
 		C7717FD721AEC42800EC08D9 /* events managerTests */ = {
 			isa = PBXGroup;
 			children = (
-				C7717FD821AEC42800EC08D9 /* events_managerTests.swift */,
 				C7717FDA21AEC42800EC08D9 /* Info.plist */,
+				C7E4491421CFFEC800522BEE /* EventListViewControllerTests.swift */,
 			);
 			path = "events managerTests";
 			sourceTree = "<group>";
@@ -387,7 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7717FD921AEC42800EC08D9 /* events_managerTests.swift in Sources */,
+				C7E4491521CFFEC800522BEE /* EventListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

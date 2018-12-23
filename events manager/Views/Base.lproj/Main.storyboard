@@ -29,7 +29,7 @@
         <!--Events Manager-->
         <scene sceneID="ob3-dr-l0R">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="3MW-qj-lLQ" customClass="EventListViewController" customModule="events_manager" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="EventListViewController" clearsSelectionOnViewWillAppear="NO" id="3MW-qj-lLQ" customClass="EventListViewController" customModule="events_manager" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="SXO-Kx-4d1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

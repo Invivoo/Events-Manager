@@ -34,20 +34,6 @@
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7717FBF21AEC42700EC08D9"
-               BuildableName = "events manager.app"
-               BlueprintName = "events manager"
-               ReferencedContainer = "container:events manager.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -60,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7717FD321AEC42800EC08D9"
-               BuildableName = "events managerTests.xctest"
-               BlueprintName = "events managerTests"
+               BlueprintIdentifier = "C774489A21CEB2BE009F9532"
+               BuildableName = "events managerUITests.xctest"
+               BlueprintName = "events managerUITests"
                ReferencedContainer = "container:events manager.xcodeproj">
             </BuildableReference>
          </TestableReference>

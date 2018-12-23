@@ -13,13 +13,21 @@
 		C7717FC921AEC42700EC08D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7717FC721AEC42700EC08D9 /* Main.storyboard */; };
 		C7717FCB21AEC42800EC08D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7717FCA21AEC42800EC08D9 /* Assets.xcassets */; };
 		C7717FCE21AEC42800EC08D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7717FCC21AEC42800EC08D9 /* LaunchScreen.storyboard */; };
-		C7717FD921AEC42800EC08D9 /* events_managerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7717FD821AEC42800EC08D9 /* events_managerTests.swift */; };
+		C774489E21CEB2BE009F9532 /* events_managerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C774489D21CEB2BE009F9532 /* events_managerUITests.swift */; };
+		C7E4491521CFFEC800522BEE /* EventListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4491421CFFEC800522BEE /* EventListViewControllerTests.swift */; };
 		CD72B0E4CB7EEDA8FB6A6D18 /* Pods_events_managerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C78291B26CD7D0DAF7A51B5 /* Pods_events_managerTests.framework */; };
 		E1B21DB183368D708A7E9C80 /* Pods_events_manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFE3323C97EF2D8EEAF045F /* Pods_events_manager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C7717FD521AEC42800EC08D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7717FB821AEC42700EC08D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7717FBF21AEC42700EC08D9;
+			remoteInfo = "events manager";
+		};
+		C77448A021CEB2BE009F9532 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C7717FB821AEC42700EC08D9 /* Project object */;
 			proxyType = 1;
@@ -43,8 +51,11 @@
 		C7717FCD21AEC42800EC08D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7717FCF21AEC42800EC08D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7717FD421AEC42800EC08D9 /* events managerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "events managerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7717FD821AEC42800EC08D9 /* events_managerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = events_managerTests.swift; sourceTree = "<group>"; };
 		C7717FDA21AEC42800EC08D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C774489B21CEB2BE009F9532 /* events managerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "events managerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C774489D21CEB2BE009F9532 /* events_managerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = events_managerUITests.swift; sourceTree = "<group>"; };
+		C774489F21CEB2BE009F9532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E4491421CFFEC800522BEE /* EventListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewControllerTests.swift; sourceTree = "<group>"; };
 		E8928F2518D418226C8D9B9A /* Pods-events managerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-events managerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-events managerTests/Pods-events managerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +73,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD72B0E4CB7EEDA8FB6A6D18 /* Pods_events_managerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C774489821CEB2BE009F9532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +111,7 @@
 			children = (
 				C7717FC221AEC42700EC08D9 /* events manager */,
 				C7717FD721AEC42800EC08D9 /* events managerTests */,
+				C774489C21CEB2BE009F9532 /* events managerUITests */,
 				C7717FC121AEC42700EC08D9 /* Products */,
 				4194DF1B0DB45481328DF70F /* Pods */,
 				A5EA2C11B6596D7B089BFE05 /* Frameworks */,
@@ -104,6 +123,7 @@
 			children = (
 				C7717FC021AEC42700EC08D9 /* events manager.app */,
 				C7717FD421AEC42800EC08D9 /* events managerTests.xctest */,
+				C774489B21CEB2BE009F9532 /* events managerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,10 +143,19 @@
 		C7717FD721AEC42800EC08D9 /* events managerTests */ = {
 			isa = PBXGroup;
 			children = (
-				C7717FD821AEC42800EC08D9 /* events_managerTests.swift */,
 				C7717FDA21AEC42800EC08D9 /* Info.plist */,
+				C7E4491421CFFEC800522BEE /* EventListViewControllerTests.swift */,
 			);
 			path = "events managerTests";
+			sourceTree = "<group>";
+		};
+		C774489C21CEB2BE009F9532 /* events managerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C774489D21CEB2BE009F9532 /* events_managerUITests.swift */,
+				C774489F21CEB2BE009F9532 /* Info.plist */,
+			);
+			path = "events managerUITests";
 			sourceTree = "<group>";
 		};
 		C79AF5B821B9698C00A1E48F /* Controllers */ = {
@@ -196,6 +225,24 @@
 			productReference = C7717FD421AEC42800EC08D9 /* events managerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C774489A21CEB2BE009F9532 /* events managerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77448A421CEB2BE009F9532 /* Build configuration list for PBXNativeTarget "events managerUITests" */;
+			buildPhases = (
+				C774489721CEB2BE009F9532 /* Sources */,
+				C774489821CEB2BE009F9532 /* Frameworks */,
+				C774489921CEB2BE009F9532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77448A121CEB2BE009F9532 /* PBXTargetDependency */,
+			);
+			name = "events managerUITests";
+			productName = "events managerUITests";
+			productReference = C774489B21CEB2BE009F9532 /* events managerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +257,10 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					C7717FD321AEC42800EC08D9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C7717FBF21AEC42700EC08D9;
+					};
+					C774489A21CEB2BE009F9532 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = C7717FBF21AEC42700EC08D9;
 					};
@@ -230,6 +281,7 @@
 			targets = (
 				C7717FBF21AEC42700EC08D9 /* events manager */,
 				C7717FD321AEC42800EC08D9 /* events managerTests */,
+				C774489A21CEB2BE009F9532 /* events managerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +298,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C7717FD221AEC42800EC08D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C774489921CEB2BE009F9532 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,7 +387,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7717FD921AEC42800EC08D9 /* events_managerTests.swift in Sources */,
+				C7E4491521CFFEC800522BEE /* EventListViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C774489721CEB2BE009F9532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C774489E21CEB2BE009F9532 /* events_managerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +406,11 @@
 			isa = PBXTargetDependency;
 			target = C7717FBF21AEC42700EC08D9 /* events manager */;
 			targetProxy = C7717FD521AEC42800EC08D9 /* PBXContainerItemProxy */;
+		};
+		C77448A121CEB2BE009F9532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7717FBF21AEC42700EC08D9 /* events manager */;
+			targetProxy = C77448A021CEB2BE009F9532 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -564,6 +636,42 @@
 			};
 			name = Release;
 		};
+		C77448A221CEB2BE009F9532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "events managerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xcomponent.events-managerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "events manager";
+			};
+			name = Debug;
+		};
+		C77448A321CEB2BE009F9532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "events managerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xcomponent.events-managerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "events manager";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -590,6 +698,15 @@
 			buildConfigurations = (
 				C7717FE121AEC42800EC08D9 /* Debug */,
 				C7717FE221AEC42800EC08D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77448A421CEB2BE009F9532 /* Build configuration list for PBXNativeTarget "events managerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77448A221CEB2BE009F9532 /* Debug */,
+				C77448A321CEB2BE009F9532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

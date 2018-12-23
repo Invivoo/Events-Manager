@@ -66,6 +66,16 @@
                ReferencedContainer = "container:events manager.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C774489A21CEB2BE009F9532"
+               BuildableName = "events managerUITests.xctest"
+               BlueprintName = "events managerUITests"
+               ReferencedContainer = "container:events manager.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
